@@ -131,6 +131,7 @@ class Bomb:
         """
         爆弾を速度ベクトルself.vx, self.vyに基づき移動させる
         引数 screen：画面Surface
+        戻り値：なし
         """
         yoko, tate = check_bound(self.rct)
         if not yoko:
